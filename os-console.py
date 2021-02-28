@@ -202,7 +202,7 @@ while True:
 """)
 
 		elif 'github' in command:
-			print(Fore.RED + " [WARNING] " + Fore.RESET + "We don't have a github, {0}YET{1}".format(Fore.RED, Fore.RESET))
+			print(Fore.RED + " [WARNING] " + Fore.RESET + "{0} https://github.com/RaphielHS/Console-OS {1}".format(Fore.GREEN, Fore.RESET))
 
 		elif 'exit()' in command:
 			quit()
